@@ -230,6 +230,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator@1.0-service \
     vendor.qti.hardware.memtrack-service
 
+# Doze
+PRODUCT_PACKAGES += \
+    OnePlusDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
